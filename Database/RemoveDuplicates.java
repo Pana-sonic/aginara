@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -32,21 +33,21 @@ public class RemoveDuplicates {
             Statement ins = connection.createStatement();
             ResultSet rs = null;
             //vres ta proionta pou emfanizontai parapanw apo duo f1 fora sto idio magazi
-            rs = query.executeQuery("SELECT avg( Τιμή ) as Τιμή,Ημερομηνια,Κατάστημα,Όνομα_Προϊόντος,Νομός___Δήμος,Κωδικός_Προϊόντος,Barcode FROM `prices` GROUP BY Κατάστημα, Κωδικός_Προϊόντος HAVING count( * ) >1");
+            rs = query.executeQuery("SELECT avg( price ) as price,pdate,market,name,region,id,barcode FROM `prices` GROUP BY market, id HAVING count( * ) >1");
             while (rs.next()) {
                 //kane delete oles tis pleiades me diplotupa proionda
-				String mar = rs.getString("Κατάστημα");
-                int id = rs.getInt("Κωδικός_Προϊόντος");
-                del.execute("DELETE FROM prices where Κατάστημα like '%" + mar + "%' and Κωδικός_Προϊόντος=" + id);
+                String mar = rs.getString("market");
+                int id = rs.getInt("id");
+                del.execute("DELETE FROM prices where market like '%" + mar + "%' and id=" + id);
                 //pare tis times gia to neo insert
-				String date = rs.getString("Ημερομηνια");
-                String name = rs.getString("Όνομα_Προϊόντος");
-                String reg = rs.getString("Νομός___Δήμος");
-                String bar = rs.getString("Barcode");
-                String price = rs.getString("Τιμή");
+                String date = rs.getString("pdate");
+                String name = rs.getString("name");
+                String reg = rs.getString("region");
+                String bar = rs.getString("barcode");
+                String price = rs.getString("price");
                 System.out.println(name + " " + reg + " " + bar + " " + price + " " + mar + " " + id);
                 //insert ton sundiasmo proion-market me to meso price
-                ins.execute("INSERT INTO `prices`(`Ημερομηνια`, `Νομός___Δήμος`, `Κατάστημα`, `Κωδικός_Προϊόντος`, `Barcode`, `Όνομα_Προϊόντος`, `Τιμή`) VALUES ('" + date + "','" + reg + "','" + mar + "'," + id + ",'" + bar + "','" + name + "'," + price + ")");
+                ins.execute("INSERT INTO `prices`(`Pdate`, `Region`, `Market`, `ID`, `Barcode`, `Name`, `Price`) VALUES ('" + date + "','" + reg + "','" + mar + "'," + id + ",'" + bar + "','" + name + "'," + price + ")");
             }
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(RemoveDuplicates.class.getName()).log(Level.SEVERE, null, ex);
