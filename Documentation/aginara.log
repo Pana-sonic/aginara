@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2013.8.12)  30 APR 2014 14:40
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2013.8.12)  30 APR 2014 16:05
 entering extended mode
  %&-line parsing enabled.
 **aginara.tex
@@ -392,100 +392,176 @@ LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
 
  [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+] [2]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 97.
 
- []
-
-
-Overfull \hbox (22.04666pt too wide) in paragraph at lines 71--72
-[]\EU1/GFSNeohellenic(0)/m/n/10 public String marketCarts(@FormParam(”latitud
-e”) double latitude, @FormParam(”longtitude”)
- []
-
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 73.
-
-(/usr/share/texmf-texlive/tex/xelatex/euenc/eu1lmtt.fd
+ (/usr/share/texmf-texlive/tex/xelatex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
-Overfull \hbox (40.0pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 HashMap <String marketName,Double distanceFromUser> superMAP
-ket(String ip);[] 
+Overfull \hbox (7.90208pt too wide) in paragraph at lines 123--124
+[]\EU1/GFSNeohellenic(0)/m/n/10 minList(37.9381,23.6394,’COCA COLA PET ΦΙΑ
+ΛΗ 1.5Lt:1,ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ
+ []
+
+Missing character: There is no κ in font [lmmono10-regular]!
+Missing character: There is no τ in font [lmmono10-regular]!
+Missing character: There is no ή in font [lmmono10-regular]!
+Missing character: There is no ο in font [lmmono10-regular]!
+Missing character: There is no υ in font [lmmono10-regular]!
+Missing character: There is no τ in font [lmmono10-regular]!
+Missing character: There is no σ in font [lmmono10-regular]!
+Missing character: There is no ο in font [lmmono10-regular]!
+Missing character: There is no π in font [lmmono10-regular]!
+Missing character: There is no ο in font [lmmono10-regular]!
+Missing character: There is no ύ in font [lmmono10-regular]!
+Missing character: There is no λ in font [lmmono10-regular]!
+Missing character: There is no ο in font [lmmono10-regular]!
+Missing character: There is no υ in font [lmmono10-regular]!
+
+Overfull \hbox (157.95pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["ΣΚΛΑΒΕΝΙΤΗΣ ΠΕΙΡΑΙΩΣ (Ακτή Μου�
+�σοπούλου 48):3.27:3.27:0.624724806994612:false:37.9364:23.6457:100.0",
+[] 
+ []
+
+[3]
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no τ in font [lmmono10-regular]!
+Missing character: There is no ω in font [lmmono10-regular]!
+Missing character: There is no λ in font [lmmono10-regular]!
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no κ in font [lmmono10-regular]!
+Missing character: There is no ο in font [lmmono10-regular]!
+Missing character: There is no ύ in font [lmmono10-regular]!
+
+Overfull \hbox (116.65pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["ΒΕΡΟΠΟΥΛΟΣ ΝΙΚΑΙΑΣ (Αιτωλικού 1
+98):3.41:3.41:2.82474633429836:true:37.9635:23.6399:100.0",[] 
+ []
+
+Missing character: There is no μ in font [lmmono10-regular]!
+Missing character: There is no ο in font [lmmono10-regular]!
+Missing character: There is no λ in font [lmmono10-regular]!
+Missing character: There is no έ in font [lmmono10-regular]!
+Missing character: There is no ν in font [lmmono10-regular]!
+Missing character: There is no σ in font [lmmono10-regular]!
+Missing character: There is no κ in font [lmmono10-regular]!
+Missing character: There is no υ in font [lmmono10-regular]!
+
+Overfull \hbox (132.4pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["ΣΚΛΑΒΕΝΙΤΗΣ ΠΕΙΡΑΙΩΣ (Σμολένσκ
+υ 18):3.27:3.27:2.972307259341269:false:37.9469:23.6691:100.0",[] 
  []
 
 
-Overfull \hbox (8.5pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 ArrayList  <MarketResults> smartList(ArrayList <String> mark
-etNames);[] 
+Overfull \hbox (218.5pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["CARREFOUR ΠΕΙΡΑΙΩΣ (ΜΠΟΥΜΠΟΥΛΙΝΑΣ 58
+ ΠΑΣΑΛΙΜΑΝΙ):3.29:3.29:0.8344882394028896:false:37.9398:23.648:100.0"
+,[] 
+ []
+
+Missing character: There is no θ in font [lmmono10-regular]!
+Missing character: There is no η in font [lmmono10-regular]!
+Missing character: There is no ν in font [lmmono10-regular]!
+Missing character: There is no ώ in font [lmmono10-regular]!
+Missing character: There is no ν in font [lmmono10-regular]!
+Missing character: There is no ε in font [lmmono10-regular]!
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no ρ in font [lmmono10-regular]!
+Missing character: There is no α in font [lmmono10-regular]!
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no ώ in font [lmmono10-regular]!
+Missing character: There is no ς in font [lmmono10-regular]!
+
+Overfull \hbox (168.09999pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["ΣΚΛΑΒΕΝΙΤΗΣ ΠΕΙΡΑΙΩΣ (Λ. Αθηνών
+-Πειραιώς 87):3.27:3.27:2.542952779674336:false:37.9509:23.6617:100.0",
+[] 
  []
 
 
-Overfull \hbox (117.0pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 HashMap <String marketName,Double distanceFromUser> superMAP
-ket(String ip,String address);[] 
- []
-
-[2]
-Overfull \hbox (115.25pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 Double getMinPrice(Product p,String location);//looks for on
-e product in a certain location[] 
+Overfull \hbox (255.25pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["CARREFOUR MARINOPOULOS ΠΕΙΡΑΙΩΣ (ΑΙΓΑΛΕΩ 2
+6):3.3000002:3.3000002:1.7140700756639535:false:37.9535:23.6386:100.0",[] 
  []
 
 
-Overfull \hbox (26.0pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 Double getMinPrice(Product p,String marketNames); //looks fo
-r one product[] 
+Overfull \hbox (269.25pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["CARREFOUR MARINOPOULOS ΠΕΙΡΑΙΩΣ (ΜΑΚΡΑΣ Σ�
+�ΟΑΣ 3):3.3000002:3.3000002:0.9111450117563706:false:37.945:23.6446:100.0",[
+] 
  []
 
 
-Overfull \hbox (108.25pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 Double getMaxPrice(Product p,String location); looks for one
- product in a certain location[] 
+Overfull \hbox (279.75pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["CARREFOUR MARINOPOULOS ΠΕΙΡΑΙΩΣ (ΛΑΜΠΡΑΚΗ
+ ΓΡ. 59):3.3000002:3.3000002:1.3908499557086595:false:37.9438:23.6525:100.0",
+[] 
+ []
+
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no κ in font [lmmono10-regular]!
+Missing character: There is no ή in font [lmmono10-regular]!
+Missing character: There is no τ in font [lmmono10-regular]!
+Missing character: There is no α in font [lmmono10-regular]!
+Missing character: There is no ε in font [lmmono10-regular]!
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no ρ in font [lmmono10-regular]!
+Missing character: There is no α in font [lmmono10-regular]!
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no ά in font [lmmono10-regular]!
+Missing character: There is no ς in font [lmmono10-regular]!
+
+Overfull \hbox (110.35pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["ΑΒ ΠΕΙΡΑΙΩΣ (Νικήτα 14 Πειραιάς):
+3.27:3.27:1.0217615761461913:false:37.9458:23.6453:100.0",[] 
+ []
+
+Missing character: There is no α in font [lmmono10-regular]!
+Missing character: There is no π in font [lmmono10-regular]!
+Missing character: There is no α in font [lmmono10-regular]!
+Missing character: There is no ν in font [lmmono10-regular]!
+Missing character: There is no α in font [lmmono10-regular]!
+Missing character: There is no σ in font [lmmono10-regular]!
+Missing character: There is no τ in font [lmmono10-regular]!
+Missing character: There is no α in font [lmmono10-regular]!
+Missing character: There is no σ in font [lmmono10-regular]!
+Missing character: There is no ί in font [lmmono10-regular]!
+Missing character: There is no ο in font [lmmono10-regular]!
+Missing character: There is no υ in font [lmmono10-regular]!
+
+Overfull \hbox (115.59999pt too wide) in paragraph at lines 160--160
+[] \EU1/lmtt/m/n/10 ["ΑΒ ΠΕΙΡΑΙΩΣ (Α. Παπαναστασίου 21)
+:3.27:3.27:1.6310383794634538:false:37.9369:23.6566:100.0",[] 
  []
 
 
-Overfull \hbox (82.0pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 Double getMaxPrice(Product p,String marketNames); //looks fo
-r one product everywhere[] 
+Overfull \hbox (82.0pt too wide) in paragraph at lines 166--166
+[]\EU1/lmtt/m/n/10 ["CARREFOUR MARINOPOULOS ΠΕΙΡΑΙΩΣ (ΑΙΓΑΛΕΩ 26
+):ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:[] 
  []
 
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no τ in font [lmmono10-regular]!
+Missing character: There is no ω in font [lmmono10-regular]!
+Missing character: There is no λ in font [lmmono10-regular]!
+Missing character: There is no ι in font [lmmono10-regular]!
+Missing character: There is no κ in font [lmmono10-regular]!
+Missing character: There is no ο in font [lmmono10-regular]!
+Missing character: There is no ύ in font [lmmono10-regular]!
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 Double getAveragePrice(Product p); //looks for one product e
-verywhere[] 
- []
-
-
-Overfull \hbox (129.25pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String location); looks for
- one product in a certain location[] 
- []
-
-
-Overfull \hbox (103.0pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String marketNames); //look
-s for one product everywhere[] 
- []
-
-
-Overfull \hbox (8.5pt too wide) in paragraph at lines 99--99
-[]\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String marketName, String l
-ocation);[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--144
+Underfull \hbox (badness 10000) in paragraph at lines 170--178
 
  []
 
-[3] [4] (./aginara.aux) ) 
+[4] [5] (./aginara.aux) ) 
 Here is how much of TeX's memory you used:
- 9200 strings out of 494665
- 145322 string characters out of 1166477
+ 9203 strings out of 494665
+ 145406 string characters out of 1166477
  254714 words of memory out of 3000000
- 12293 multiletter control sequences out of 15000+50000
- 9172 words of font info for 44 fonts, out of 3000000 for 9000
+ 12295 multiletter control sequences out of 15000+50000
+ 9180 words of font info for 45 fonts, out of 3000000 for 9000
  669 hyphenation exceptions out of 8191
- 41i,7n,43p,478b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,43p,478b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on aginara.pdf (5 pages).
+Output written on aginara.pdf (6 pages).

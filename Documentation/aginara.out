@@ -1,7 +1,10 @@
 \BOOKMARK [1][-]{section.0.1}{Ιδέα}{}
 \BOOKMARK [1][-]{section.0.2}{Παράδειγμα Εκτέλεσης}{}
 \BOOKMARK [1][-]{section.0.3}{Δεδομένα}{}
+\BOOKMARK [2][-]{subsection.0.3.1}{Βάση}{section.0.3}
+\BOOKMARK [2][-]{subsection.0.3.2}{Επαναχρησιμοποίηση}{section.0.3}
 \BOOKMARK [1][-]{section.0.4}{WebService API}{}
-\BOOKMARK [2][-]{subsection.0.4.1}{Functions}{section.0.4}
-\BOOKMARK [2][-]{subsection.0.4.2}{Classes}{section.0.4}
+\BOOKMARK [2][-]{subsection.0.4.1}{Headers}{section.0.4}
+\BOOKMARK [2][-]{subsection.0.4.2}{Arguments}{section.0.4}
+\BOOKMARK [2][-]{subsection.0.4.3}{Παραδείγματα Κλήσεων}{section.0.4}
 \BOOKMARK [1][-]{section.0.5}{Μελλοντική Δουλειά}{}

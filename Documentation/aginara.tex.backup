@@ -43,7 +43,7 @@
  \item Πληρότητας καλαθιού
 \end{itemize}
 Η Εφαρμογή μας χρησιμοποιεί το \href{http://www.data.gov.gr/dataset/17/}{dataset} με τις τιμές 
-προιόντων καταναλωτών.\\
+προιόντων καταναλωτών.
 
 \section{Παράδειγμα Εκτέλεσης}
 
@@ -57,47 +57,69 @@
 \end{enumerate}
 
 \section{Δεδομένα}
+\subsection{Βάση}
 Χρησιμοποιώντας το \href{http://www.data.gov.gr/dataset/17/}{dataset} από το data.gov.gr 
 φτιάξαμε μια βάση δεδομένων με τα παραπάνω δεδομένα. Ωστόσο πέρα από αυτό χρησιμοποιήσαμε
 api googlemaps και προσθέσαμε έτσι στο dataset και την τοποθεσία με συντεταγμένες των 
 καταστημάτων για όσα καταστήματα είχαν σωστή - ολοκληρωμένη διεύθυνση. 
+Τα δεδομένα που έχουμε στην βάση μας για όσα καταστήματα είχαν σωστή 
+ολοκληρωμένη διεύθυνση, είναι: \\
+Για τα καταστήματα :
+\begin{itemize}
+ \item Όνομα καταστήματος με διεύθυνση
+ \item Περιοχή ( Νομό / Περιφέρεια / Δήμος )
+ \item Διεύθυνση 
+ \item Δήμος 
+ \item Δήμος σε Ονομαστική πτώση
+ \item Γεωχωρικές Συντεταγμένες καταστήματος
+\end{itemize}
+Για τα προιόντα :
+\begin{itemize}
+ \item Όνομα προιόντος
+ \item Ημερομηνία εγγραφής προιόντος 
+ \item Τιμή προιόντος
+\end{itemize}
 
-\section{Επαναχρησιμοποίηση}
-Στο \href{https://github.com/Pana-sonic/aginara/tree/master/Database}{git}
+
+\subsection{Επαναχρησιμοποίηση}
+Στο \href{https://github.com/Pana-sonic/aginara/tree/master/Database}{git} υπάρχουν τα script 
+για την δημιουργία της βάσης σύμφωνα με όσα dataset υπάρχουν στον φάκελο Datasets. Συνεπώς αρκεί
+κανείς να πάρει τα csv αρχεία που έχουν τα δεδομένα και να τα βάλουν στον φάκελο Datasets και στην
+συνέχεια να τρέξουν το reset.sh για να στηθεί η βάση και να έχουν πρόσβαση σε όλη την πρόσθετη
+λειτουργικότητα. Επίσης θα μπορούσε κανείς μετά να φτιάξει ένα webservice για να δώσει τις 
+συντεταγμένες των καταστημάτων προς τα έξω εφόσον αυτό είναι επιθυμητό.
+
 \section{WebService API}
 
-Τα webservice που στήσαμε δίνουν Rest api και επιστρέφουν json. Ακολουθεί περιγραφή των 
-διαθέσιμων μεθόδων.
+Τα webservice που στήσαμε και είναι υλοποιημένα σε Java, δίνουν Rest api και επιστρέφουν json.
+Ακολουθεί περιγραφή των διαθέσιμων μεθόδων.
 \subsection{Functions}
+\subsubsection{Headers}
+\begin{verbatim}
+public String marketCarts(@FormParam("latitude") double latitude,
+			   @FormParam("longtitude") double longtitude,
+			   @FormParam("products") String products)
+			   
+public String minList(@FormParam("latitude") double latitude,
+			   @FormParam("longtitude") double longtitude,
+			   @FormParam("products") String products)
+\end{verbatim}
 
-public String marketCarts(@FormParam("latitude") double latitude, @FormParam("longtitude") double longtitude, @FormParam("products") String products)
-public String minList(@FormParam("latitude") double latitude, @FormParam("longtitude") double longtitude, @FormParam("products") String products)
+\subsubsection{Arguments}
+\begin{itemize}
+ \item marketCarts
+ \subitem double latitude
+ \subitem double longitude
+ \subitem String products
+ \subsubitem product\_name:amount
+ \item minList
+ \subitem double latitude
+ \subitem double longitude
+ \subitem String products
+ \subsubitem product\_name:amount
+\end{itemize}
 
 \begin{verbatim}
-HashMap <String marketName,Double distanceFromUser> superMAPket(String ip); 
-ArrayList  <MarketResults> smartList(ArrayList <String> marketNames); 
-TODO : 
-HashMap <String marketName,Double distanceFromUser> superMAPket(String ip,String address); 
-
-// to call threw ajax
-
-HashMap <String productName,int id> findProduct(String substring);
-
-Double getMinPrice(Product p); //looks for one product everywhere
-Double getMinPrice(Product p,String location);//looks for one product in a certain location
-Double getMinPrice(Product p,String marketNames); //looks for one product 
-//everywhere at marketName markets
-Double getMinPrice(Product p,String marketName, String location);
-Double getMaxPrice(Product p); //looks for one product everywhere
-Double getMaxPrice(Product p,String location); looks for one product in a certain location
-Double getMaxPrice(Product p,String marketNames); //looks for one product everywhere 
-//at marketName markets
-Double getMaxPrice(Product p,String marketName, String location);
-Double getAveragePrice(Product p); //looks for one product everywhere
-Double getAveragePrice(Product p,String location); looks for one product in a certain location
-Double getAveragePrice(Product p,String marketNames); //looks for one product everywhere 
-//at marketName markets
-Double getAveragePrice(Product p,String marketName, String location);
 
 \end{verbatim}
 
