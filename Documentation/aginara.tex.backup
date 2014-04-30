@@ -3,14 +3,26 @@
 \usepackage{xltxtra}
 \usepackage{xgreek}
 \usepackage{gfsneohellenic}
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
 
 \setromanfont[Mapping=tex-text]{GFS Neohellenic}
 % \setsansfont[Mapping=tex-text]{DejaVu Sans}
 % \setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
 
-\title{Aginara\\
-\vspace{0.5cm}
+\renewcommand{\thesection}{\Roman{section}} % Αρίθμηση ενοτήτων
+
+\hypersetup{ % Ρύθμιση των χρωμάτων συνδέσμων
+    colorlinks, linkcolor={cyan},
+    citecolor={purple}, urlcolor={orange}
+}
+
+\title{
+\vspace{-1cm}
 \centering
+\includegraphics[scale=0.8]{aginara-logo3.png}
+\vspace{1cm}
 \includegraphics[scale=0.6]{artichoke.jpg}
 \vspace{0.5cm}
 }
@@ -19,20 +31,47 @@
 
 \begin{document}
 \maketitle
+\tableofcontents
 
 \newpage
-\section{Idea}
-Μια εφαρμογή που θα δείχνει στον χρήστη οπτικά την βέλτιστη επιλογή καταστήματος για την λίστα
-προιόντων που επιθυμεί να αποκτήσει από άποψη 
+\section{Ιδέα}
+Η αγκινάρα είναι μια web εφαρμογή που έχει σκοπό να συμβουλεύει τον χρήστη οπτικά για την 
+βέλτιστη επιλογή καταστήματος για μια λίστα
+προιόντων που επιθυμεί να αποκτήσει. Η εφαρμογή μπορεί να συμβουλέψει τον χρήστη από άποψη: 
 \begin{itemize}
  \item Τιμής
  \item Πληρότητας καλαθιού
 \end{itemize}
+Η Εφαρμογή μας χρησιμοποιεί το \href{http://www.data.gov.gr/dataset/17/}{dataset} με τις τιμές 
+προιόντων καταναλωτών.\\
 
+\section{Παράδειγμα Εκτέλεσης}
 
-Η Εφαρμογή μας χρησιμοποιεί το dataset 
+\begin{enumerate}
+ \item Ο χρήστης εισάγει την διεύθυνση του
+ \item Με βοήθεια από το autocomplete συμπληρώνει την λίστα προιόντων που τον ενδιαφέρουν
+ \item Πατάει στο κουμπί search
+ \item Ανάλογα με την επιλογή που έχει ενεργή επιστρέφονται τα καταστήματα που βρίσκονται σε ακτίνα
+ 4km και γίνεται οπτικοποίηση των βέλτιστων αποτελεσμάτων
+ \item Με click πάνω στο κατάστημα εμφανίζονται περισσότερες πληροφορίες σχετικά με την επιλογή
+\end{enumerate}
+
+\section{Δεδομένα}
+Χρησιμοποιώντας το \href{http://www.data.gov.gr/dataset/17/}{dataset} από το data.gov.gr 
+φτιάξαμε μια βάση δεδομένων με τα παραπάνω δεδομένα. Ωστόσο πέρα από αυτό χρησιμοποιήσαμε
+api googlemaps και προσθέσαμε έτσι στο dataset και την τοποθεσία με συντεταγμένες των 
+καταστημάτων για όσα καταστήματα είχαν σωστή - ολοκληρωμένη διεύθυνση. 
+
+\section{Επαναχρησιμοποίηση}
+Στο \href{https://github.com/Pana-sonic/aginara/tree/master/Database}{git}
 \section{WebService API}
+
+Τα webservice που στήσαμε δίνουν Rest api και επιστρέφουν json. Ακολουθεί περιγραφή των 
+διαθέσιμων μεθόδων.
 \subsection{Functions}
+
+public String marketCarts(@FormParam("latitude") double latitude, @FormParam("longtitude") double longtitude, @FormParam("products") String products)
+public String minList(@FormParam("latitude") double latitude, @FormParam("longtitude") double longtitude, @FormParam("products") String products)
 
 \begin{verbatim}
 HashMap <String marketName,Double distanceFromUser> superMAPket(String ip); 
@@ -94,5 +133,17 @@ public PriceLocation{
 }
 
 \end{verbatim}
+
+\section{Μελλοντική Δουλειά}
+
+Στην συνέχεια η ιδέα είναι να εισαχθεί στην εφαρμογή δυνατότητα καταστημάτων 
+που δεν υπάρχουν στο dataset να κάνουν εγγραφή στην εφαρμογή - δεν προλάβαμε να 
+κάνουμε την υλοποίηση στα πλαίσια του hackathon. Θα δίνεται επιλογή στον χρήστη να 
+επιβεβαιώσει πως είναι αποδεκτές οι τιμές για τη λίστα που συμπλήρωσε σε κάποιο 
+κατάστημα και πως είναι πρόθυμος να αγοράσει. \\
+Τότε θα ενημερώνονται όσα καταστήματα βρίσκονται στην ακτίνα αναζήτησης του χρήστη
+και έχουν κάνει εγγραφή στην εφαρμογή και θα τους δίνεται η δυνατότητα να κάνουν
+μια καλύτερη προσφορά στον χρήστη για την ίδια λίστα.\\
+ 
 
 \end{document}

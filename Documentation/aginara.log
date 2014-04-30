@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2013.8.12)  30 APR 2014 13:33
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2013.8.12)  30 APR 2014 14:40
 entering extended mode
  %&-line parsing enabled.
 **aginara.tex
@@ -265,36 +265,76 @@ File: hdvipdfm.def 2009/10/09 v6.79a Hyperref driver for dvipdfm
 \HyField@AnnotCount=\count106
 \Fld@listcount=\count107
 )
-\c@zf@famc@GFS Neohellenic=\count108
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen110
+\extrarowheight=\dimen111
+\NC@list=\toks19
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+\everycr=\toks20
+\minrowclearance=\skip48
+)
+\rownum=\count108
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/share/texmf/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+))
+\c@zf@famc@GFS Neohellenic=\count109
 Package fontspec Info: Defining font family for 'GFS Neohellenic' with options 
-[Mapping=tex-text] on input line 8.
+[Mapping=tex-text] on input line 10.
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
  (./aginara.aux)
 \openout1 = `aginara.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 21.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 32.
 
 (/usr/share/texmf-texlive/tex/latex/cbfonts/lgrcmr.fd
 File: lgrcmr.fd 2008/01/04 v1.0 Greek Computer Modern
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-Package hyperref Info: Link coloring OFF on input line 21.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+Package hyperref Info: Link coloring ON on input line 32.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -302,116 +342,150 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count109
+\c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
  (./aginara.out)
 (./aginara.out)
 \@outlinefile=\write3
 \openout3 = `aginara.out'.
 
 \AtBeginShipoutBox=\box28
+File: aginara-logo3.png Graphic file (type QTm)
+ <use  "aginara-logo3.png" >
 File: artichoke.jpg Graphic file (type QTm)
  <use  "artichoke.jpg" >
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 23.
+(Font)              <12> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(Font)              <6> on input line 34.
 LaTeX Font Info:    Try loading font information for OT1+neohellenic on input l
-ine 23.
+ine 34.
 
 (/usr/share/texmf-texlive/tex/latex/gfsneohellenic/ot1neohellenic.fd)
 LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
-(Font)              scaled to size 14.70007pt on input line 23.
+(Font)              scaled to size 14.70007pt on input line 34.
 LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
-(Font)              scaled to size 9.80005pt on input line 23.
+(Font)              scaled to size 9.80005pt on input line 34.
 LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
-(Font)              scaled to size 7.35004pt on input line 23.
+(Font)              scaled to size 7.35004pt on input line 34.
  [1
 
 ]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 43.
+(./aginara.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
+(Font)              scaled to size 12.25006pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
+(Font)              scaled to size 8.57504pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
+(Font)              scaled to size 6.12503pt on input line 1.
+)
+\tf@toc=\write4
+\openout4 = `aginara.toc'.
 
+ [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Overfull \hbox (22.04666pt too wide) in paragraph at lines 71--72
+[]\EU1/GFSNeohellenic(0)/m/n/10 public String marketCarts(@FormParam(”latitud
+e”) double latitude, @FormParam(”longtitude”)
+ []
+
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 73.
 
 (/usr/share/texmf-texlive/tex/xelatex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
-Overfull \hbox (40.0pt too wide) in paragraph at lines 69--69
+Overfull \hbox (40.0pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 HashMap <String marketName,Double distanceFromUser> superMAP
 ket(String ip);[] 
  []
 
 
-Overfull \hbox (8.5pt too wide) in paragraph at lines 69--69
+Overfull \hbox (8.5pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 ArrayList  <MarketResults> smartList(ArrayList <String> mark
 etNames);[] 
  []
 
 
-Overfull \hbox (117.0pt too wide) in paragraph at lines 69--69
+Overfull \hbox (117.0pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 HashMap <String marketName,Double distanceFromUser> superMAP
 ket(String ip,String address);[] 
  []
 
-
-Overfull \hbox (115.25pt too wide) in paragraph at lines 69--69
+[2]
+Overfull \hbox (115.25pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 Double getMinPrice(Product p,String location);//looks for on
 e product in a certain location[] 
  []
 
 
-Overfull \hbox (26.0pt too wide) in paragraph at lines 69--69
+Overfull \hbox (26.0pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 Double getMinPrice(Product p,String marketNames); //looks fo
 r one product[] 
  []
 
 
-Overfull \hbox (108.25pt too wide) in paragraph at lines 69--69
+Overfull \hbox (108.25pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 Double getMaxPrice(Product p,String location); looks for one
  product in a certain location[] 
  []
 
 
-Overfull \hbox (82.0pt too wide) in paragraph at lines 69--69
+Overfull \hbox (82.0pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 Double getMaxPrice(Product p,String marketNames); //looks fo
 r one product everywhere[] 
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 69--69
+Overfull \hbox (5.0pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 Double getAveragePrice(Product p); //looks for one product e
 verywhere[] 
  []
 
 
-Overfull \hbox (129.25pt too wide) in paragraph at lines 69--69
+Overfull \hbox (129.25pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String location); looks for
  one product in a certain location[] 
  []
 
 
-Overfull \hbox (103.0pt too wide) in paragraph at lines 69--69
+Overfull \hbox (103.0pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String marketNames); //look
 s for one product everywhere[] 
  []
 
 
-Overfull \hbox (8.5pt too wide) in paragraph at lines 69--69
+Overfull \hbox (8.5pt too wide) in paragraph at lines 99--99
 []\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String marketName, String l
 ocation);[] 
  []
 
-[1] [2] (./aginara.aux) ) 
-Here is how much of TeX's memory you used:
- 8472 strings out of 494665
- 135918 string characters out of 1166477
- 222517 words of memory out of 3000000
- 11590 multiletter control sequences out of 15000+50000
- 7818 words of font info for 39 fonts, out of 3000000 for 9000
- 669 hyphenation exceptions out of 8191
- 40i,6n,43p,478b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on aginara.pdf (3 pages).
+Underfull \hbox (badness 10000) in paragraph at lines 136--144
+
+ []
+
+[3] [4] (./aginara.aux) ) 
+Here is how much of TeX's memory you used:
+ 9200 strings out of 494665
+ 145322 string characters out of 1166477
+ 254714 words of memory out of 3000000
+ 12293 multiletter control sequences out of 15000+50000
+ 9172 words of font info for 44 fonts, out of 3000000 for 9000
+ 669 hyphenation exceptions out of 8191
+ 41i,7n,43p,478b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on aginara.pdf (5 pages).
