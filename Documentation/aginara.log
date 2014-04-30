@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.10.5)  30 APR 2014 18:55
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.10.5)  30 APR 2014 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,66 +848,44 @@ Overfull \hbox (14.22363pt too wide) in paragraph at lines 107--107
  []
 
 
-Overfull \hbox (7.90208pt too wide) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+[3]
+Overfull \hbox (7.90208pt too wide) in paragraph at lines 150--151
 []\EU1/GFSNeohellenic(0)/m/n/10 minList(37.9381,23.6394,’COCA COLA PET ΦΙΑ
 ΛΗ 1.5Lt:1,ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ
  []
 
-[3]
-Overfull \hbox (2.18262pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.27:3.27:0.624724806994612:false:37.9364:23.6
-457:100.0”,[] 
- []
 
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
-Overfull \hbox (2.18262pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.27:3.27:2.972307259341269:false:37.9469:23.6
-691:100.0”,[] 
- []
-
-
-Overfull \hbox (2.18262pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.29:3.29:0.8344882394028896:false:37.9398:23.
-648:100.0”,[] 
- []
-
-
-Overfull \hbox (2.18262pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.27:3.27:2.542952779674336:false:37.9509:23.6
-617:100.0”,[] 
- []
-
-
-Overfull \hbox (68.4082pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.3000002:3.3000002:1.7140700756639535:false:3
-7.9535:23.6386:100.0”,[] 
- []
-
-
-Overfull \hbox (62.3877pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.3000002:3.3000002:0.9111450117563706:false:3
-7.945:23.6446:100.0”,[] 
- []
-
-
-Overfull \hbox (68.4082pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.3000002:3.3000002:1.3908499557086595:false:3
-7.9438:23.6525:100.0”,[] 
- []
-
-
-Overfull \hbox (8.20313pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.27:3.27:1.0217615761461913:false:37.9458:23.
-6453:100.0”,[] 
- []
-
-
-Overfull \hbox (8.20313pt too wide) in paragraph at lines 172--172
-[] \EU1/DejaVuSansMono(0)/m/n/10 3.27:3.27:1.6310383794634538:false:37.9369:23.
-6566:100.0”,[] 
  []
 
 [4]
+Overfull \hbox (58.37402pt too wide) in paragraph at lines 207--207
+[]\EU1/DejaVuSansMono(0)/m/n/10 3.3000002:3.3000002:1.7140700756639535:false:37
+.9535:23.6386:100.0,[] 
+ []
+
+
+Overfull \hbox (52.35352pt too wide) in paragraph at lines 207--207
+[]\EU1/DejaVuSansMono(0)/m/n/10 3.3000002:3.3000002:0.9111450117563706:false:37
+.945:23.6446:100.0,[] 
+ []
+
+
+Overfull \hbox (58.37402pt too wide) in paragraph at lines 207--207
+[]\EU1/DejaVuSansMono(0)/m/n/10 3.3000002:3.3000002:1.3908499557086595:false:37
+.9438:23.6525:100.0,[] 
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -942,17 +920,17 @@ Overfull \hbox (8.20313pt too wide) in paragraph at lines 172--172
 . This font family consists of the following shapes:
 .................................................
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--192
+Underfull \hbox (badness 10000) in paragraph at lines 221--229
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
-[5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
  (./aginara.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 194.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
  ) 
 Here is how much of TeX's memory you used:
  19417 strings out of 494003
@@ -961,6 +939,6 @@ Here is how much of TeX's memory you used:
  22450 multiletter control sequences out of 15000+200000
  9308 words of font info for 61 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 50i,7n,45p,621b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,7n,45p,621b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on aginara.pdf (6 pages).
+Output written on aginara.pdf (7 pages).

@@ -9,7 +9,7 @@
 
 \setromanfont[Mapping=tex-text]{GFS Neohellenic}
 % \setsansfont[Mapping=tex-text]{DejaVu Sans}
-% \setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
+\setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
 
 \renewcommand{\thesection}{\Roman{section}} % Αρίθμηση ενοτήτων
 
@@ -60,8 +60,9 @@
 \subsection{Βάση}
 Χρησιμοποιώντας το \href{http://www.data.gov.gr/dataset/17/}{dataset} από το data.gov.gr 
 φτιάξαμε μια βάση δεδομένων με τα παραπάνω δεδομένα. Ωστόσο πέρα από αυτό χρησιμοποιήσαμε
-api googlemaps και προσθέσαμε έτσι στο dataset και την τοποθεσία με συντεταγμένες των 
-καταστημάτων για όσα καταστήματα είχαν σωστή - ολοκληρωμένη διεύθυνση. 
+api από το googlemaps για να προσθέσαμε στο dataset και την τοποθεσία με συντεταγμένες των 
+καταστημάτων. Αυτό έγινε για όσα καταστήματα είχαν σωστή - ολοκληρωμένη διεύθυνση καθώς
+μερικά είχαν ελλιπείς και κομμένες διευθύνσεις και άλλα δεν είχαν καθόλου. 
 Τα δεδομένα που έχουμε στην βάση μας για όσα καταστήματα είχαν σωστή 
 ολοκληρωμένη διεύθυνση, είναι: \\
 Για τα καταστήματα :
@@ -73,6 +74,7 @@ api googlemaps και προσθέσαμε έτσι στο dataset και την
  \item Δήμος σε Ονομαστική πτώση
  \item Γεωχωρικές Συντεταγμένες καταστήματος
 \end{itemize}
+\newpage
 Για τα προιόντα :
 \begin{itemize}
  \item Όνομα προιόντος
@@ -93,8 +95,7 @@ api googlemaps και προσθέσαμε έτσι στο dataset και την
 
 Τα webservice που στήσαμε και είναι υλοποιημένα σε Java, δίνουν Rest api και επιστρέφουν json.
 Ακολουθεί περιγραφή των διαθέσιμων μεθόδων.
-\subsection{Functions}
-\subsubsection{Headers}
+\subsection{Headers}
 \begin{verbatim}
 public String marketCarts(@FormParam("latitude") double latitude,
 			   @FormParam("longtitude") double longtitude,
@@ -105,7 +106,21 @@ public String minList(@FormParam("latitude") double latitude,
 			   @FormParam("products") String products)
 \end{verbatim}
 
-\subsubsection{Arguments}
+\subsection{Περιγραφή}
+Επιστρέφει μια λίστα από λίστες, που η καθεμία αντιπροσωπεύει καποιες πληροφορίες για ένα super market. Στην πρώτη θέση της λίστας του κάθε market υπάρχουν (χωρισμένα με :) τα
+\\
+\begin{itemize}
+ \item Όνομα κατάστημα  (Διεύθυνση)
+ \item Συνολική τιμή του καλαθιού :το άθροισμα των τιμών του συνόλου των προιόντων που βρέθηκαν στο κατάστημα. Αυτό δείχνει πόσο θα πληρώσει ο χρήστης αν αγοράσει όσα προιόντα από τη λίστα του.
+ \item Αναμενόμενη τιμή καλαθιού :το άθροισμα της συνολικής τίμης καλαθιού και των μεσων όρων των τιμών όσων προιόντων δεν βρέθηκαν στο συγκεκριμένο super market. Αυτό δείχνει πόσο θα έκανε η λίστα με τα προιόντα που ζήτησε ο χρήστης αν υπήρχαν όλα τα προιόντα στο super market, και σκοπό έχει να συγκρίνει ο καταναλωτής τις τιμές των καλαθιών στα διαφορετικά super market επί ίσοις όροις 
+ \item Η απόσταση του super market από τον καταναλωτή.
+ \item True η False: Δείχνει αν ένα καλάθι είναι ακριβό η όχι. Ένα καλάθι είναι ακριβό αν η αναμενόμενη τιμή του είναι μεγαλύτερη από το άθροισμα των μέσων όρων των τιμών των προιόντων της λίστας του καταναλωτή.
+ \item Latitude:Longtitude: Οι συντεταγμένες του κατάστηματος .
+ \item Το \% ποσοστό πληρότητας του καλαθιού σε σχέση με τη λίστα του καταναλωτή. Δηλαδή πόσα προιόντα απο αυτά που ζήτησε ο καταναλωτής, υπάρχουν στο super market.
+ 
+\end{itemize}
+
+\subsection{Arguments}
 \begin{itemize}
  \item marketCarts
  \subitem double latitude
@@ -118,49 +133,80 @@ public String minList(@FormParam("latitude") double latitude,
  \subitem String products
  \subsubitem product\_name:amount
 \end{itemize}
+\subsection{Παραδείγματα Κλήσεων}
+\begin{itemize}
+ \item marketCarts(37.9381,23.6394,'COCA COLA  PET ΦΙΑΛΗ 1.5Lt:1,ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:2')
+ \item minList(37.9381,23.6394,'COCA COLA  PET ΦΙΑΛΗ 1.5Lt:1,ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:2')
+\end{itemize}
 
+\subsubsection{Παραδείγματα Επιστροφής}
 \begin{verbatim}
+[
+[ΣΚΛΑΒΕΝΙΤΗΣ ΠΕΙΡΑΙΩΣ (Ακτή Μουτσοπούλου 48):
+3.27:3.27:0.624724806994612:false:37.9364:23.6457:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.57],
 
+[ΒΕΡΟΠΟΥΛΟΣ ΝΙΚΑΙΑΣ (Αιτωλικού 198):
+3.41:3.41:2.82474633429836:true:37.9635:23.6399:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.84,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.57],
+
+[ΣΚΛΑΒΕΝΙΤΗΣ ΠΕΙΡΑΙΩΣ (Σμολένσκυ 18):
+3.27:3.27:2.972307259341269:false:37.9469:23.6691:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.57],
+
+[CARREFOUR ΠΕΙΡΑΙΩΣ (ΜΠΟΥΜΠΟΥΛΙΝΑΣ 58 ΠΑΣΑΛΙΜΑΝΙ):
+3.29:3.29:0.8344882394028896:false:37.9398:23.648:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.59],
+
+[ΣΚΛΑΒΕΝΙΤΗΣ ΠΕΙΡΑΙΩΣ (Λ. Αθηνών-Πειραιώς 87):
+3.27:3.27:2.542952779674336:false:37.9509:23.6617:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.57],
+
+[CARREFOUR MARINOPOULOS ΠΕΙΡΑΙΩΣ (ΑΙΓΑΛΕΩ 26):
+3.3000002:3.3000002:1.7140700756639535:false:37.9535:23.6386:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.6],
+
+[CARREFOUR MARINOPOULOS ΠΕΙΡΑΙΩΣ (ΜΑΚΡΑΣ ΣΤΟΑΣ 3):
+3.3000002:3.3000002:0.9111450117563706:false:37.945:23.6446:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.6],
+
+[CARREFOUR MARINOPOULOS ΠΕΙΡΑΙΩΣ (ΛΑΜΠΡΑΚΗ ΓΡ. 59):
+3.3000002:3.3000002:1.3908499557086595:false:37.9438:23.6525:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.6],
+
+[ΑΒ ΠΕΙΡΑΙΩΣ (Νικήτα 14 Πειραιάς):
+3.27:3.27:1.0217615761461913:false:37.9458:23.6453:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.57],
+
+[ΑΒ ΠΕΙΡΑΙΩΣ (Α. Παπαναστασίου 21):
+3.27:3.27:1.6310383794634538:false:37.9369:23.6566:100.0,
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:1.7,
+COCA COLA PET ΦΙΑΛΗ 1.5Lt:1.57]
+]
 \end{verbatim}
-
-\subsection{Classes}
-
 \begin{verbatim}
-
-public Market{
-    private String marketName;
-    private String address;
-    private double latitude;
-    private double longitude;
-}
-
-public Product{
-    private int id;
-    private String name;
-    private double min,max,average;
-}
-
-public MarketResults{
-    private Market market;
-    private ArrayList <String> products;
-    private double distance;
-    private int percentage;
-    private int actualSum; //sum of prices of products
-    private int projectedSum; //expected sum of products
-}
-
-public PriceLocation{
-    private String marketName;
-    private double price;
-}
-
+["CARREFOUR MARINOPOULOS ΠΕΙΡΑΙΩΣ (ΑΙΓΑΛΕΩ 26):
+ΜΠΙΣΚΟΤΑ ΠΤΙ ΜΠΕΡ ΠΑΠΑΔΟΠΟΥΛΟΥ 225gr:
+1.7140700756639535:37.9535:23.6386:0.85",
+"ΒΕΡΟΠΟΥΛΟΣ ΝΙΚΑΙΑΣ (Αιτωλικού 198):
+COCA COLA  PET ΦΙΑΛΗ 1.5Lt:
+2.82474633429836:37.9635:23.6399:1.57"]
 \end{verbatim}
 
 \section{Μελλοντική Δουλειά}
 
 Στην συνέχεια η ιδέα είναι να εισαχθεί στην εφαρμογή δυνατότητα καταστημάτων 
-που δεν υπάρχουν στο dataset να κάνουν εγγραφή στην εφαρμογή - δεν προλάβαμε να 
-κάνουμε την υλοποίηση στα πλαίσια του hackathon. Θα δίνεται επιλογή στον χρήστη να 
+που δεν υπάρχουν στο dataset να κάνουν εγγραφή στην εφαρμογή \footnote{δεν προλάβαμε να 
+κάνουμε την υλοποίηση στα πλαίσια του hackathon}. Θα δίνεται επιλογή στον χρήστη να 
 επιβεβαιώσει πως είναι αποδεκτές οι τιμές για τη λίστα που συμπλήρωσε σε κάποιο 
 κατάστημα και πως είναι πρόθυμος να αγοράσει. \\
 Τότε θα ενημερώνονται όσα καταστήματα βρίσκονται στην ακτίνα αναζήτησης του χρήστη

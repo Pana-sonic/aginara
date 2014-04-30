@@ -5,7 +5,8 @@
 \contentsline {subsection}{\numberline {III.2}Επαναχρησιμοποίηση}{3}{subsection.0.3.2}
 \contentsline {section}{\numberline {IV}WebService API}{3}{section.0.4}
 \contentsline {subsection}{\numberline {IV.1}Headers}{3}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {IV.2}Arguments}{3}{subsection.0.4.2}
-\contentsline {subsection}{\numberline {IV.3}Παραδείγματα Κλήσεων}{4}{subsection.0.4.3}
-\contentsline {subsubsection}{Παραδείγματα Επιστροφής}{4}{section*.2}
-\contentsline {section}{\numberline {V}Μελλοντική Δουλειά}{5}{section.0.5}
+\contentsline {subsection}{\numberline {IV.2}Περιγραφή}{3}{subsection.0.4.2}
+\contentsline {subsection}{\numberline {IV.3}Arguments}{4}{subsection.0.4.3}
+\contentsline {subsection}{\numberline {IV.4}Παραδείγματα Κλήσεων}{4}{subsection.0.4.4}
+\contentsline {subsubsection}{Παραδείγματα Επιστροφής}{5}{section*.2}
+\contentsline {section}{\numberline {V}Μελλοντική Δουλειά}{6}{section.0.5}
