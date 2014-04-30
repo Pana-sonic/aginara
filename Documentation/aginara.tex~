@@ -1,14 +1,15 @@
-\documentclass[a4paper,10pt]{scrartcl}
+\documentclass[a4paper,10pt]{report}
 
 \usepackage{xltxtra}
 \usepackage{xgreek}
 \usepackage{gfsneohellenic}
+\usepackage{hyperref}
 
 \setromanfont[Mapping=tex-text]{GFS Neohellenic}
 % \setsansfont[Mapping=tex-text]{DejaVu Sans}
 % \setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
 
-\title{Aginara Web Services - API\\
+\title{Aginara\\
 \vspace{0.5cm}
 \centering
 \includegraphics[scale=0.6]{artichoke.jpg}
@@ -21,7 +22,18 @@
 \maketitle
 
 \newpage
-\section{Functions}
+\section{Idea}
+Η αγκινάρα είναι μια web εφαρμογή που θα δείχνει στον χρήστη οπτικά την βέλτιστη επιλογή καταστήματος για την λίστα
+προιόντων που επιθυμεί να αποκτήσει, από άποψη: 
+\begin{itemize}
+ \item Τιμής
+ \item Πληρότητας καλαθιού
+\end{itemize}
+
+Η Εφαρμογή μας χρησιμοποιεί το \href{http://www.data.gov.gr/dataset/17/}{dataset}
+
+\section{WebService API}
+\subsection{Functions}
 
 \begin{verbatim}
 HashMap <String marketName,Double distanceFromUser> superMAPket(String ip); 
@@ -51,7 +63,7 @@ Double getAveragePrice(Product p,String marketName, String location);
 
 \end{verbatim}
 
-\section{Classes}
+\subsection{Classes}
 
 \begin{verbatim}
 

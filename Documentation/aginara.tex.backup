@@ -1,0 +1,98 @@
+\documentclass[a4paper,10pt]{report}
+
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\usepackage{gfsneohellenic}
+
+\setromanfont[Mapping=tex-text]{GFS Neohellenic}
+% \setsansfont[Mapping=tex-text]{DejaVu Sans}
+% \setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
+
+\title{Aginara\\
+\vspace{0.5cm}
+\centering
+\includegraphics[scale=0.6]{artichoke.jpg}
+\vspace{0.5cm}
+}
+\author{Γιάννης Κατάκης \\Γιώργος Παναγόπουλος\\ Νεκταρία Ρέκκα\\Ανδρέας Γρίβας}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\newpage
+\section{Idea}
+Μια εφαρμογή που θα δείχνει στον χρήστη οπτικά την βέλτιστη επιλογή καταστήματος για την λίστα
+προιόντων που επιθυμεί να αποκτήσει από άποψη 
+\begin{itemize}
+ \item Τιμής
+ \item Πληρότητας καλαθιού
+\end{itemize}
+
+
+Η Εφαρμογή μας χρησιμοποιεί το dataset 
+\section{WebService API}
+\subsection{Functions}
+
+\begin{verbatim}
+HashMap <String marketName,Double distanceFromUser> superMAPket(String ip); 
+ArrayList  <MarketResults> smartList(ArrayList <String> marketNames); 
+TODO : 
+HashMap <String marketName,Double distanceFromUser> superMAPket(String ip,String address); 
+
+// to call threw ajax
+
+HashMap <String productName,int id> findProduct(String substring);
+
+Double getMinPrice(Product p); //looks for one product everywhere
+Double getMinPrice(Product p,String location);//looks for one product in a certain location
+Double getMinPrice(Product p,String marketNames); //looks for one product 
+//everywhere at marketName markets
+Double getMinPrice(Product p,String marketName, String location);
+Double getMaxPrice(Product p); //looks for one product everywhere
+Double getMaxPrice(Product p,String location); looks for one product in a certain location
+Double getMaxPrice(Product p,String marketNames); //looks for one product everywhere 
+//at marketName markets
+Double getMaxPrice(Product p,String marketName, String location);
+Double getAveragePrice(Product p); //looks for one product everywhere
+Double getAveragePrice(Product p,String location); looks for one product in a certain location
+Double getAveragePrice(Product p,String marketNames); //looks for one product everywhere 
+//at marketName markets
+Double getAveragePrice(Product p,String marketName, String location);
+
+\end{verbatim}
+
+\subsection{Classes}
+
+\begin{verbatim}
+
+public Market{
+    private String marketName;
+    private String address;
+    private double latitude;
+    private double longitude;
+}
+
+public Product{
+    private int id;
+    private String name;
+    private double min,max,average;
+}
+
+public MarketResults{
+    private Market market;
+    private ArrayList <String> products;
+    private double distance;
+    private int percentage;
+    private int actualSum; //sum of prices of products
+    private int projectedSum; //expected sum of products
+}
+
+public PriceLocation{
+    private String marketName;
+    private double price;
+}
+
+\end{verbatim}
+
+\end{document}

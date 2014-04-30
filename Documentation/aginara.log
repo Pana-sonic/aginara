@@ -1,0 +1,417 @@
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2013.8.12)  30 APR 2014 13:33
+entering extended mode
+ %&-line parsing enabled.
+**aginara.tex
+(./aginara.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2009/09/02 v0.5 Improvements for the "XeLaTeX" format
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/xelatex/fontspec/fontspec.sty
+Package: fontspec 2008/08/09 v1.18 Advanced font selection for XeLaTeX
+\c@zf@newff=\count89
+\c@zf@index=\count90
+\c@zf@script=\count91
+\c@zf@language=\count92
+
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count93
+\calc@Bcount=\count94
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count95
+\calc@Cskip=\skip45
+)
+(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/share/texmf-texlive/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count96
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+
+(/usr/share/texmf-texlive/tex/generic/xkeyval/keyval.tex)))
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/xelatex/euenc/eu1enc.def
+File: eu1enc.def 2008/03/08 v0.1d Experimental unicode font encoding
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(/usr/share/texmf-texlive/tex/xelatex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+))
+LaTeX Info: Redefining \itshape on input line 1163.
+LaTeX Info: Redefining \slshape on input line 1166.
+LaTeX Info: Redefining \scshape on input line 1169.
+LaTeX Info: Redefining \upshape on input line 1172.
+
+fontspec.cfg loaded.
+(/usr/share/texmf-texlive/tex/xelatex/fontspec/fontspec.cfg))
+(/usr/share/texmf-texlive/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2008/02/08 v0.91 provides access to latin accents and many o
+ther characters in Unicode lower plane
+)
+(/usr/share/texmf-texlive/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2009/09/04 v0.11 Extended TeX logo macros
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+\xl@everylogo=\toks16
+\xl@@everylogo=\toks17
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+(/usr/share/texmf-texlive/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count97
+)
+(/usr/share/texmf-texlive/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+LaTeX Info: Redefining \em on input line 72.
+LaTeX Info: Redefining \emph on input line 81.
+LaTeX Info: Redefining \- on input line 86.
+LaTeX Info: Redefining \textsubscript on input line 105.
+LaTeX Info: Redefining \textsuperscript on input line 107.
+\xxt@tempbox=\box26
+)
+(/usr/share/texmf-texlive/tex/xelatex/xgreek/xgreek.sty
+File: xgreek.sty 2008/06/22 v2.0 Package `xgreek.sty'
+
+Package `xgreek' version 2.0 by Apostolos Syropoulos
+\@attic@num=\count98
+)
+(/usr/share/texmf-texlive/tex/latex/gfsneohellenic/gfsneohellenic.sty
+File: gfsneohellenic.sty 2001/12/15 v1.0 Package `gfsneohellenic.sty'
+ 
+*****************************************************************
+ GFS-Neohellenic style file by A. Tsolomitis and I. Vassilogiorgakis 
+*****************************************************************
+Loading the definitions for the Greek font encoding
+(/usr/share/texmf-texlive/tex/generic/babel/lgrenc.def
+File: lgrenc.def 2008/06/17 v2.3 Greek Encoding
+)
+\symneohellenicnumbers=\mathgroup4
+)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen107
+\Hy@linkcounter=\count99
+\Hy@pagecounter=\count100
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/hyperref.cfg
+File: hyperref.cfg 2008/07/11 v1.2 hyperref configuration for XeLaTeX
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count101
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count102
+\c@Item=\count103
+\c@Hfootnote=\count104
+)
+*hyperref using default driver hdvipdfm*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hdvipdfm.def
+File: hdvipdfm.def 2009/10/09 v6.79a Hyperref driver for dvipdfm
+\pdfm@box=\box27
+\c@Hy@AnnotLevel=\count105
+\HyField@AnnotCount=\count106
+\Fld@listcount=\count107
+)
+\c@zf@famc@GFS Neohellenic=\count108
+Package fontspec Info: Defining font family for 'GFS Neohellenic' with options 
+[Mapping=tex-text] on input line 8.
+ (./aginara.aux)
+\openout1 = `aginara.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 21.
+
+(/usr/share/texmf-texlive/tex/latex/cbfonts/lgrcmr.fd
+File: lgrcmr.fd 2008/01/04 v1.0 Greek Computer Modern
+)
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+Package hyperref Info: Link coloring OFF on input line 21.
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count109
+)
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+ (./aginara.out)
+(./aginara.out)
+\@outlinefile=\write3
+\openout3 = `aginara.out'.
+
+\AtBeginShipoutBox=\box28
+File: artichoke.jpg Graphic file (type QTm)
+ <use  "artichoke.jpg" >
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 23.
+LaTeX Font Info:    Try loading font information for OT1+neohellenic on input l
+ine 23.
+
+(/usr/share/texmf-texlive/tex/latex/gfsneohellenic/ot1neohellenic.fd)
+LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
+(Font)              scaled to size 14.70007pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
+(Font)              scaled to size 9.80005pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/neohellenic/m/n' will be
+(Font)              scaled to size 7.35004pt on input line 23.
+ [1
+
+]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 43.
+
+
+(/usr/share/texmf-texlive/tex/xelatex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+Overfull \hbox (40.0pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 HashMap <String marketName,Double distanceFromUser> superMAP
+ket(String ip);[] 
+ []
+
+
+Overfull \hbox (8.5pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 ArrayList  <MarketResults> smartList(ArrayList <String> mark
+etNames);[] 
+ []
+
+
+Overfull \hbox (117.0pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 HashMap <String marketName,Double distanceFromUser> superMAP
+ket(String ip,String address);[] 
+ []
+
+
+Overfull \hbox (115.25pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 Double getMinPrice(Product p,String location);//looks for on
+e product in a certain location[] 
+ []
+
+
+Overfull \hbox (26.0pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 Double getMinPrice(Product p,String marketNames); //looks fo
+r one product[] 
+ []
+
+
+Overfull \hbox (108.25pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 Double getMaxPrice(Product p,String location); looks for one
+ product in a certain location[] 
+ []
+
+
+Overfull \hbox (82.0pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 Double getMaxPrice(Product p,String marketNames); //looks fo
+r one product everywhere[] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 Double getAveragePrice(Product p); //looks for one product e
+verywhere[] 
+ []
+
+
+Overfull \hbox (129.25pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String location); looks for
+ one product in a certain location[] 
+ []
+
+
+Overfull \hbox (103.0pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String marketNames); //look
+s for one product everywhere[] 
+ []
+
+
+Overfull \hbox (8.5pt too wide) in paragraph at lines 69--69
+[]\EU1/lmtt/m/n/10 Double getAveragePrice(Product p,String marketName, String l
+ocation);[] 
+ []
+
+[1] [2] (./aginara.aux) ) 
+Here is how much of TeX's memory you used:
+ 8472 strings out of 494665
+ 135918 string characters out of 1166477
+ 222517 words of memory out of 3000000
+ 11590 multiletter control sequences out of 15000+50000
+ 7818 words of font info for 39 fonts, out of 3000000 for 9000
+ 669 hyphenation exceptions out of 8191
+ 40i,6n,43p,478b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on aginara.pdf (3 pages).
