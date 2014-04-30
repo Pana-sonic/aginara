@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Aginara</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" type="text/main.css" /> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4UwQIGzyIhJbQqBj1gzRZwe3zLuVPc2M&sensor=false&libraries=places">
+    </script>
+    <script src="js/prods.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="logo-wrapper">
+        <div class="about-logo"><a href="index.html"><img id="logo" src="img/logo.png"/></a><a href="about.html">about</a></div>
+      </div>
+      <div id="product-list" class="sidebar-div">
+        <input type="text" id="product-autocomplete" placeholder="Add a new product.." autocomplete="off" class="product-input"/>
+        <div class="separator"></div>
+        <div id="products" class="products">
+          <ul></ul>
+        </div>
+      </div>
+      
+      <a id="search-btn">Search</a>
+    </div>
+    <div id="option-btns-up"><img src="img/tag.png" class="btn active" id="minListMode"><img src="img/full.png" class="btn" title="Search by lower price" id="marketCartsMode"></div>
+    <div id="option-btns-down"><img src="img/download.png" class="btn" title="Download shopping list"></div>
+    <input id="location-input" type="text" placeholder="Enter your location">
+    <div id="map-canvas"/>
+  </body>
+</html>
